@@ -1,16 +1,10 @@
-# Compiled class file
+# --- Kompilowane pliki Java ---
 *.class
 
-# Log file
+# --- Logi ---
 *.log
 
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# --- Archiwa / paczki ---
 *.jar
 *.war
 *.nar
@@ -19,6 +13,49 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# --- Pliki tymczasowe VM ---
 hs_err_pid*
 replay_pid*
+
+# --- Maven ---
+/target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# --- Gradle ---
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# --- IntelliJ IDEA ---
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# --- Eclipse ---
+.project
+.classpath
+.settings/
+.bin/
+
+# --- VS Code ---
+.vscode/
+
+# --- Systemowe ---
+.DS_Store
+Thumbs.db
+
+# --- Inne ---
+*.swp
+*.swo
+*.bak
+*.tmp
